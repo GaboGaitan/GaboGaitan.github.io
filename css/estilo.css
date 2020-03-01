@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.menubar {
+	display:block;
+}
+ 
+.menubar li{
+	display: inline-block;
+position: relative;
+z-index:200;}
+ 
+.menubar ul{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 17px;
+	font-variant-position: normal;
+	text-align: center;
+}
+.menubar li a {
+	font-weight:1000px;
+text-decoration:none;
+padding:11px;
+display:block;
+color:#ffffff;
+ 
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menubar li a:hover, .menu li:hover > a{color:#ffffff;
+background:#9CA3DA;}
+
+.menubar{
+	background: #37AE81;
+	overflow: hidden;
+	box-shadow: 0 0 20px 0 #070707;
+	position: relative;
+}
+
+.slider{
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+float: inherit;
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 30s infinite alternate;
+}
+
+.slider li {
+	width: 50%;
+}
+
+.slider img{	
+width: 100%;
+}
+
+@keyframes cambio{
+	0% {margin-left: 0%;}
+	20%{margin-left: 0%;}
+	
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+	
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+	
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+	
+}
+
+.logotipo {
+	text-align: center;
+	color: blue;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+}
+
+.logotipo span{
+	color: red;
+}
+
+.slogan{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: black;
+	text-align: center;
+	font-size: 17px;
+}
+
+.main{
+	
+	background-color: blue;
+	color: aliceblue;
+	width: 1000px;
+	height: 620px;
+}
+.main h3{
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.main h4{
+	text-align: left justify;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#planea {
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	float: left;
+	width: 400px;
+text-align: center;
+}
+
+#viaja {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		float: right;
+	width: 400px;
+text-align: center;
+}
+
+#disfruta {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	float: left;
+	width: 400px;
+text-align: center;
+}
+
+#plan {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		float: right;
+	width: 400px;
+text-align: center;
+}
+
+#carazo{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: cadetblue;
+	background-size: contain;
+	height: 220px;
+	text-align: right;
+	color: aliceblue;
+}
+
+.fotocarazo { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; background-size: contain; background-color: cadetblue;}
+
+#granada{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: coral;
+	background-size: contain;
+	height: 220px;
+	text-align: left;
+	color: aliceblue;
+}
+
+.fotogranada { padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 250px; }
+
+#leon{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: cadetblue;
+	background-size: contain;
+	height: 220px;
+	text-align: right;
+	color: aliceblue;
+}
+
+.fotoleon { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; background-size: contain; background-color: cadetblue;}
+
+#masaya{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: coral;
+	background-size: contain;
+	height: 220px;
+	text-align: left;
+	color: aliceblue;
+}
+
+.fotomasaya { padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 250px; }
+
+.contacto {
+	background: #3DBCED;
+}
+
+
+.contacto ul{
+	list-style: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	float: inherit;
+	
+}
+
+.contacto h3{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 23px;
+}
+
+footer{
+    color: aliceblue;
+	text-align: center;
+	background: #838383;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
